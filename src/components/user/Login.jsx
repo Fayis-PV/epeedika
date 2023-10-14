@@ -18,8 +18,8 @@ const Login = () => {
         console.log('this is me');
         try {
          
-          // const res = await axios.post(`${base_url}/signup`, info);
-          const res = await axios.post(`http://127.0.0.1:8000/signup`, info); 
+          const res = await axios.post(`${base_url}/signup`, info);
+          // const res = await axios.post(`http://127.0.0.1:8000/signup`, info); 
           console.log(res);
           alert("User Added Successfully");
           console.log(info);
